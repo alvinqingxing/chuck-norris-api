@@ -1,24 +1,19 @@
-# README
+# Chuck Norris Joke API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+The **Chuck Norris Joke API** can be accessed through the terminal:
 
-Things you may want to cover:
+All jokes:
 
-* Ruby version
+```
+curl -s https://rails-chuck-norris-api.herokuapp.com/api/v1/jokes | jq
+```
 
-* System dependencies
+An individual joke:
 
-* Configuration
+```
+curl -s https://rails-chuck-norris-api.herokuapp.com/api/v1/jokes/99 | jq
+```
 
-* Database creation
+You can also access the API through a REST client such as [Postman](https://www.postman.com/).
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+The jokes were seeded from [Faker](https://github.com/faker-ruby/faker)'s Chuck Norris library.
