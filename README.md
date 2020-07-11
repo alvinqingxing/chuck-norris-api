@@ -1,6 +1,8 @@
 # Chuck Norris Joke API
 
-The **Chuck Norris Joke API** can be accessed through the terminal:
+The **Chuck Norris Joke API** can be accessed through the [Random Chuck Norris Joke Generator](https://alvinlim.me/chuck-norris-front/).
+
+It can also be accessed through the terminal:
 
 All jokes:
 
