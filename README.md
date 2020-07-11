@@ -4,13 +4,13 @@ The **Chuck Norris Joke API** can be accessed through the [Random Chuck Norris J
 
 It can also be accessed through the terminal:
 
-All jokes:
+* All jokes:
 
 ```
 curl -s https://rails-chuck-norris-api.herokuapp.com/api/v1/jokes | jq
 ```
 
-An individual joke:
+* An individual joke:
 
 ```
 curl -s https://rails-chuck-norris-api.herokuapp.com/api/v1/jokes/99 | jq
